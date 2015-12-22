@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:mic_array
-LIBS:electret_module-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -418,4 +417,6 @@ F 3 "" H 3100 3800 60  0000 C CNN
 	1    3100 3800
 	1    0    0    -1  
 $EndComp
+Text Notes 600  750  0    60   ~ 0
+Example electret mic amplifier circuit taken from TI application note:\nhttp://www.ti.com/lit/ug/tidu765/tidu765.pdf
 $EndSCHEMATC
